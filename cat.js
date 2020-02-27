@@ -7,4 +7,8 @@ function Cat() {
 >>>>>>> parent of 728dd73... Fix: mouse and cat
 }
 
+Cat.prototype.eat = function (mouse) {
+	this.stomach.push(mouse); 
+};
+
 module.exports = Cat;
