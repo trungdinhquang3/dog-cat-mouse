@@ -9,4 +9,3 @@ var mouse = new Mouse('Jerry');
 cat.eat(mouse);
 
 chicken.sayHi();
-console.log(cat);
